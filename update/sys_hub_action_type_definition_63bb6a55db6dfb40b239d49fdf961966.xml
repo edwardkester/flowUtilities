@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>do simple math operations on two numbers.  this is to provide an action when you want to do simply math on two numbers and don't want to create a new action.</description>
+        <internal_name>arithmetic_operations</internal_name>
+        <label_cache>[{"name":"{{action.operand_1}}","label":"action➛Operand 1","type":"action","ref":""},{"name":"{{action.operation}}","label":"action➛Operation","type":"action","ref":""},{"name":"{{action.operand_2}}","label":"action➛Operand 2","type":"action","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].}}","label":"step➛Do the Math➛","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].s}}","label":"step➛Do the Math➛s","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].su}}","label":"step➛Do the Math➛su","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].suc}}","label":"step➛Do the Math➛suc","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].succ}}","label":"step➛Do the Math➛succ","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].succe}}","label":"step➛Do the Math➛succe","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].succes}}","label":"step➛Do the Math➛succes","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].success}}","label":"step➛Do the Math➛success","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].r}}","label":"step➛Do the Math➛r","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].re}}","label":"step➛Do the Math➛re","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].res}}","label":"step➛Do the Math➛res","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].resu}}","label":"step➛Do the Math➛resu","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].resul}}","label":"step➛Do the Math➛resul","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result}}","label":"step➛Do the Math➛result","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_}}","label":"step➛Do the Math➛result_","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_v}}","label":"step➛Do the Math➛result_v","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_va}}","label":"step➛Do the Math➛result_va","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_val}}","label":"step➛Do the Math➛result_val","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_valu}}","label":"step➛Do the Math➛result_valu","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_value}}","label":"step➛Do the Math➛result_value","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].i}}","label":"step➛Do the Math➛i","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].in}}","label":"step➛Do the Math➛in","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].int}}","label":"step➛Do the Math➛int","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].inte}}","label":"step➛Do the Math➛inte","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].integ}}","label":"step➛Do the Math➛integ","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].intege}}","label":"step➛Do the Math➛intege","type":"step","ref":""},{"name":"{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].integer}}","label":"step➛Do the Math➛integer","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Arithmetic Operations</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:04:15</sys_created_on>
+        <sys_id>63bb6a55db6dfb40b239d49fdf961966</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Arithmetic Operations</sys_name>
+        <sys_package display_value="Dev Program Flow Utilities" source="x_snc_dev_util">24ba6e15db6dfb40b239d49fdf961995</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dev Program Flow Utilities">24ba6e15db6dfb40b239d49fdf961995</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_63bb6a55db6dfb40b239d49fdf961966</sys_update_name>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:51:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=63bb6a55db6dfb40b239d49fdf961966"/>
+    <sys_variable_value action="delete_multiple" query="document_key=63bb6a55db6dfb40b239d49fdf961966"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>63bb6a55db6dfb40b239d49fdf961966</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>28627a99db6dfb40b239d49fdf9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:15</sys_updated_on>
+        <value/>
+        <variable display_value="">e0627a99db6dfb40b239d49fdf9619b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>63bb6a55db6dfb40b239d49fdf961966</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>64627a99db6dfb40b239d49fdf9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:15</sys_updated_on>
+        <value/>
+        <variable display_value="">68627a99db6dfb40b239d49fdf96199d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>63bb6a55db6dfb40b239d49fdf961966</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>a0627a99db6dfb40b239d49fdf9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:15</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">1c627a99db6dfb40b239d49fdf961996</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=63bb6a55db6dfb40b239d49fdf961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>float_value</field>
+        <id>63bb6a55db6dfb40b239d49fdf961966</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>a8627a99db6dfb40b239d49fdf9619c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:38:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_63bb6a55db6dfb40b239d49fdf961966</table>
+        <value>{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].result_value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>integer_value</field>
+        <id>63bb6a55db6dfb40b239d49fdf961966</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>6c627a99db6dfb40b239d49fdf9619c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:38:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_63bb6a55db6dfb40b239d49fdf961966</table>
+        <value>{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].integer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mydebug</field>
+        <id>63bb6a55db6dfb40b239d49fdf961966</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 15:38:04</sys_created_on>
+        <sys_id>c6314315dbadfb40b239d49fdf9619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:51:31</sys_updated_on>
+        <table>var__m_sys_hub_action_output_63bb6a55db6dfb40b239d49fdf961966</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>63bb6a55db6dfb40b239d49fdf961966</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>20627a99db6dfb40b239d49fdf9619c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:38:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_63bb6a55db6dfb40b239d49fdf961966</table>
+        <value>{{step[e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f].success}}</value>
+    </sys_element_mapping>
+</record_update>

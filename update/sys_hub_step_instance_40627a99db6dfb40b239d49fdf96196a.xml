@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Arithmetic Operations">63bb6a55db6dfb40b239d49fdf961966</action>
+        <cid>e585e8fc-e704-48d5-b79b-e2b4bd8dfa4f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Do the Math</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:13</sys_created_on>
+        <sys_id>40627a99db6dfb40b239d49fdf96196a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Do the Math</sys_name>
+        <sys_package display_value="Dev Program Flow Utilities" source="x_snc_dev_util">24ba6e15db6dfb40b239d49fdf961995</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dev Program Flow Utilities">24ba6e15db6dfb40b239d49fdf961995</sys_scope>
+        <sys_update_name>sys_hub_step_instance_40627a99db6dfb40b239d49fdf96196a</sys_update_name>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:51:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=40627a99db6dfb40b239d49fdf96196a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40627a99db6dfb40b239d49fdf96196a</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>94627a99db6dfb40b239d49fdf961991</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 15:51:31</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var success = true;
+  var result = 0;
+
+  try{
+    
+     var operand1 = parseInt(inputs.operand1);
+     var operand2 = parseInt(inputs.operand2);
+    
+   switch (inputs.operation){
+
+     case 'Add':
+       result = operand1 + operand2;
+       break;
+       
+     case 'Subtract':
+       result = operand1 - operand2;
+       break;
+       
+     case 'Divide':
+       if (operand2 != 0){
+            result = operand1 / operand2;
+       }else{
+          success = false;
+       }
+       break;
+       
+     case 'Multiply':
+       result = operand1 * operand2;
+       break;
+       
+     default:       
+       success = false;
+   }
+  
+  outputs.success = success;
+  outputs.result_value = result;
+  outputs.integer = Math.round(result);
+
+    
+  } catch(e){
+    var success = false;
+  }
+
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40627a99db6dfb40b239d49fdf96196a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>d0627a99db6dfb40b239d49fdf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:14</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=40627a99db6dfb40b239d49fdf96196a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>40627a99db6dfb40b239d49fdf96196a</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>98627a99db6dfb40b239d49fdf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>operand1</field>
+        <id>40627a99db6dfb40b239d49fdf96196a</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>d0627a99db6dfb40b239d49fdf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:14</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_40627a99db6dfb40b239d49fdf96196a</table>
+        <value>{{action.operand_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>operand2</field>
+        <id>40627a99db6dfb40b239d49fdf96196a</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>94627a99db6dfb40b239d49fdf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:14</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_40627a99db6dfb40b239d49fdf96196a</table>
+        <value>{{action.operand_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>operation</field>
+        <id>40627a99db6dfb40b239d49fdf96196a</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:15</sys_created_on>
+        <sys_id>58627a99db6dfb40b239d49fdf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_40627a99db6dfb40b239d49fdf96196a</table>
+        <value>{{action.operation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>40627a99db6dfb40b239d49fdf96196a</id>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 14:33:14</sys_created_on>
+        <sys_id>50627a99db6dfb40b239d49fdf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 14:33:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
